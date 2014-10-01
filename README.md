@@ -4,9 +4,9 @@ jetpack-github
 This plugin lets you change git branched of Jetpack without leaving WordPress.
 
 
-**This plugin should not be run on a production enviroment!**
+**This plugin should not be run on a production environment!**
 
-Don't use this plugin if you are planning to developing from using it. It changes your repos permissin settings by running 
+Don't use this plugin if you are planning to developing from using it. It changes your repos permission settings by running.
 
 		git config core.filemode false
 on plugin activation. 
@@ -28,7 +28,4 @@ Setup
 		
 4. Activate Jetpack Plugin, then activate Jetpack Github
 5. Go to Jetpack -> Github and change the branch as needed. 
-*Everytime you Switch branches you will also pull the latest changes from github*
-
-
-
+*Every time you Switch branches you will also pull the latest changes from github*
