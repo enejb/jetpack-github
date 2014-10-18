@@ -51,7 +51,7 @@ class Jetpack_Github {
 					<p>Currently on <strong><?php echo self::get_current_branch(); ?></strong>.</p>
 					<form method="POST">
 					<?php wp_nonce_field( 'switch_branch', '_nonce' ); ?>
-					<input type="submit" value="Swithch to " class="primary-button button" />
+					<input type="submit" value="Switch to " class="primary-button button" />
 					<select name="branch">
 						<option>...</option>
 						 <optgroup label="Branches">
